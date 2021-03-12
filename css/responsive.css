@@ -1,0 +1,114 @@
+
+/* Tablet and Mobile */
+@media screen and (max-width: 1023px) {
+  .contact-inner {
+    display: block;
+  }
+
+  .contact-detail {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-detail span {
+    margin: 0 auto;
+  }
+  .about-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3rem;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .address i {
+    padding-left: 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+  nav {
+    padding: 1rem 2rem;
+  }
+
+  .nav-brand {
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .welcome img {
+    width: 130px;
+  }
+
+  .welcome h1 {
+    font-size: 34px;
+  }
+
+  .welcome p {
+    font-size: 15px;
+  }
+
+  .nav-toggler {
+    display: block;
+    padding: 0;
+  }
+
+  .main-nav {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 51px;
+    left: 0;
+    line-height: normal;
+    height: 33vh;
+    overflow: hidden;
+    transform: translateX(-100%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-active {
+    transform: translateX(0);
+    transition: transform ease-in 0.2s;
+  }
+
+  .main-nav li {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .main-nav li:first-child {
+    border-top: 1px solid rgba(255, 225, 225, 0.2);
+  }
+
+  .main-nav li a {
+    font-size: 13px;
+  }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .col{
+    padding-left: 0;
+    padding-right:0;
+  }
+  .address {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1023px){
+  .project{
+    margin-bottom: 8px;
+  }
+}
