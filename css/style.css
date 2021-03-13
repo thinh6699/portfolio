@@ -366,13 +366,6 @@ nav {
     letter-spacing: 1px;
 }
 
-/* .my-projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem;
-    margin: 5rem 0 2rem 0;
-} */
-
 .project {
     /* border: 2px solid rgba(0, 0, 0, .1); */
     position: relative;
